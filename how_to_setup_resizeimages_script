@@ -1,0 +1,31 @@
+==================== Tạo môi trường ảo ====================
+Giải nén file zip và vào trong thư mục gốc
+1. Cài thư viện virtualenv nếu chưa có: 
+	$ pip install virtualenv
+	
+2. Tạo môi trường ảo
+	$ python -m venv {tên env}
+
+3. Kích hoạt môi trường ảo
+	. Trên windows: 
+		$ {tên env}\Scripts\activate
+	. Trên linux:
+		$ source {tên env}/bin/activate
+	
+
+==================== Cài requirements ======================
+. Cách 1: 
+	$ pip install opencv-python
+		
+. Cách 2:
+	$ pip install -r requirements.txt
+
+==================== Tạo folder input_images và output_images cùng cấp với thư mục gốc ====================
+
+==================== Chạy script ============================
+
+1. Chạy file main.py
+	$ python main.py 
+	hoặc sử dụng bất cứ idle nào hỗ trợ python 
+
+	
